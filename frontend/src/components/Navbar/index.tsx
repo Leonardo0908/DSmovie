@@ -5,14 +5,14 @@ function Navbar(){
     return(
         <header>
         <nav className='container' >
-          <div className='dsmovie-nav-content' >
+          <div className="dsmovie-nav-content">
             <h1>DSMovie</h1>
-   
-            <a className='dsmovie-contact-link' href="https://github.com/Leonardo0908">  </a>
-            <div className='dsmovie-contact-container' >
-              <GithubIcon />
-              <p>/devSuperior</p>
-            </div>
+            <a href="https://github.com/devsuperior" target="_blank" rel="noreferrer">
+                <div className="dsmovie-contact-container">
+                    <GithubIcon />
+                    <p className="dsmovie-contact-link">/devsuperior</p>
+                </div>
+            </a>
           </div>
         </nav>
       </header>
