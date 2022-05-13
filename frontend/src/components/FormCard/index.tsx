@@ -1,17 +1,20 @@
 import axios from 'axios';
-import { useState, useEffect } from 'react';
+import { useEffect , useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Movie } from '../../Types/movie';
 import { BASE_URL } from '../../utils/requests';
 import  './styles.css';
 
 type Props = {
-    movieId : string;
+    movieId: string;
 }
+
+
+
 
 function FormCard( { movieId } : Props ) {
 
-    const [movie, setMovie] = useState<Movie>():
+    const [movie, setMovie] = useState<Movie>();
 
     useEffect(() => {
         axios.get(`${BASE_URL}/movies/${movieId}`)
