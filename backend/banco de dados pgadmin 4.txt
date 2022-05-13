@@ -1,0 +1,11 @@
+postgres://
+
+laxftwbdarifcw    (Nome do Usuario)
+:
+078d4629f560d58a20549dd5386df41dc0218c05e31bb20d252df5d5691ff072   (Senha)
+@
+ec2-3-224-164-189.compute-1.amazonaws.com  (Host)
+:
+5432   (Porta)
+/
+d51o4m91mtgf68  (Nome da base de dados)
